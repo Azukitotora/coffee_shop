@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+.main_content {
+  float: left;
+  margin-right:50px;
+}
+
+.main_content h2 {
+  margin:20px 0 10px;
+}
+
+.main_content dt {
+  margin:0 0 5px 0;
+  background:url(../images/bullet.png) no-repeat 0 4px;
+  padding-left:10px;
+}
+
+.main_content dd {
+  margin:0 0 15px 0;
+}
+
+.sidebar {
+  float:left;
+}
+
+.sidebar h2 {
+  margin:20px 0 10px;
+}
+
+.sidebar p {
+  line-height:1.5;
+}

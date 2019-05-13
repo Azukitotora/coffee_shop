@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+body {
+  background:#342c1c;
+}
+
+.inner {
+  width:960px;
+  margin:0 auto;
+}
+
+#header {
+  background:#f4f0e9;
+}
+
+#header .inner {
+  position:relative;
+  padding-bottom:10px;
+}
+
+#header a {
+  text-decoration:none;
+  color:#1c0c03;
+}
+
+#header a:hover {
+  color:#6c2e09;
+  background: linear-gradient(transparent 70%, #ffffff 70%);
+}
+
+.home .n_home,
+.about .n_about,
+.menu .n_menu {
+  background: linear-gradient(transparent 70%, #ffffff 70%);
+}
+
+#header h1 {
+  text-align:center;
+  padding:20px 0;
+}
+
+#header li {
+  float:left;
+}
+
+#header ul {
+  overflow:hidden;
+}
+
+#header a {
+  text-decoration:none;
+  color:#301907;
+}
+
+#header a:hover {
+  color:#7d4212;
+}
+
+
+#header .utility_nav {
+  position:absolute;
+  right:0;
+  top:5px;
+}
+
+#header .utility_nav li {
+  margin-right:20px;
+  font-size:12px;
+}
+
+#header .utility_nav li:last-child {
+  margin-right:0;
+}
+
+#header .global_nav {
+  margin:0 auto;
+  width:447px;
+}
+
+#header .global_nav li {
+  margin-right: 50px;
+  font-size:15px;
+}
+
+#header .global_nav li:last-child {
+  margin-right: 0;
+}
+
+#visual {
+  background: #f4f2e7 url(../images/bg_body.png);
+}
+
+#content {
+  background:#e4ded2;
+  overflow:hidden;
+  padding-bottom:30px;
+}
+
+#footer {
+  color:#FFF;
+  text-align:center;
+  padding:20px 0;
+  font-size:12px;
+}
